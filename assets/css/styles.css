@@ -1,0 +1,231 @@
+:root {
+    --primario: #CECCCC;
+    --primarioOscuro: #666667;
+    --secundario: #c51a1a;
+    --secundarioOscuro: rgb(233, 287, 2);
+    --blanco: #fff;
+    --negro: #000;
+    --sobraTexto: rgba(255, 255, 255, .75);
+
+    --fuentePrincipal: "Ubuntu", sans-serif;
+
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/**globales**/
+
+
+body {
+    background-color: #CECCCC;
+    font-size: 1.6rem;
+    line-height: 2;
+    /**labasedelafuentainterlinbeado**/
+}
+
+p {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--blanco);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    min-width: 100%;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: var(--secundario);
+    font-family: var(--fuentePrincipal);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+/**utilidades**/
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+/**header**/
+
+
+.header {
+    background-image: url(../img/pexels-lucas-rodrigues-vimieiro-5185577.jpg);
+    height: 55rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /**centrar horizontal centrar vertical**/
+}
+
+
+.navegacion {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.navegacion__enlace {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--negro);
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-family: var(--fuentePrincipal);
+}
+
+.fondo__texto--nav {
+    border: none;
+    border-radius: 2rem;
+    background-color: var(--sobraTexto)
+}
+
+.navegacion__enlace:hover {
+    box-shadow: 2px 2px #000, 6px 6px #000, 10px 10px #000;
+    transform: translateX(-3px);
+}
+
+.header__texto h2 {
+    text-align: center;
+    color: var(--negro);
+    margin-top: 5rem;
+}
+
+.barra {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.logo__barra {
+    height: 10rem;
+}
+
+@media (min-width:768px) {
+    .header__texto {
+        margin-top: 25rem;
+    }
+
+    .navegacion {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .barra {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+
+/*main*/
+
+.texto{
+    font-size: 2rem;
+    align-content: center;
+    color: var(--negro);
+    font-family: var(--fuentePrincipal);
+}
+
+.logo__intro{
+    display: block;
+    align-content: center;
+    width: 80%;
+}
+
+
+@media (min-width: 768px) {
+    .intro {
+        padding-top: 4rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5rem;
+    }
+
+    .texto{
+        font-size: 3rem;
+    align-content: center;
+    }
+
+
+}
+
+
+
+
+
+
+
+/**Footer**/
+
+
+
+/**navegacion**/
+
+
+
+/**termina forma anterior**/
+
+
+
+/**grid**/
+
+
+/**producto**/
+
+
+
+/**graficos**/
+
+
+
+
+/**Seccion nosotros**/
+
+
+/**bloques**/
