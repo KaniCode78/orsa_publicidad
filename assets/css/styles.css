@@ -91,10 +91,10 @@ h3 {
 
 .header {
     background-image: url(../img/pexels-lucas-rodrigues-vimieiro-5185577-grito.png);
-    height: 55rem;
+    height: 45rem;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: center center;
     /**centrar horizontal centrar vertical**/
 }
 
@@ -146,6 +146,13 @@ h3 {
 }
 
 @media (min-width:768px) {
+
+    .header{
+        height: 55rem;
+        background-position: bottom center;
+    }
+
+
     .header__texto {
         margin-top: 25rem;
     }
