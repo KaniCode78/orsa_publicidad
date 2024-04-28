@@ -113,6 +113,7 @@ h3 {
     height: 5rem;
     background-color: var(none);
 }
+
 /* Fixed de redes sociales */
 
 
@@ -366,8 +367,6 @@ h3 {
 
 
 
-/**contacto**/
-
 /** Contacto **/
 .formulario {
     background-color: var(--sombraCard);
@@ -445,70 +444,58 @@ h3 {
     border-radius: .5rem;
 }
 
-
-
 /**Footer**/
 
+@media (min-width: 768px) {
 
 
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        padding-bottom: 5rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        color: var(--primario);
+        background-color: var(--negro);
+    }
+
+    .bloque__contacto {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        font-style: var(--fuentePrincipal);
+        text-align: center;
+        font-weight: bold;
+        line-height: 2rem;
+    }
+
+    .bloque__rs {
+        gap: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+
+    }
+
+    .bloque__nav {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        
+        text-align: center;
+    }
+
+    .bloque__nav a{
+        text-decoration: none;
+        color: var(--blanco);
+        font-family: var(--fuentePrincipal);
 
 
+    }
 
-/* .btn-whatsapp img {
+    .bloque__nav ul, li {
+        list-style: none;
+        
+    }
+}
 
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    display: block !important;
-    position: fixed;
-    z-index: 99999;
-    bottom: 20px;
-    height: 10rem;
-    width: 10rem;
-    right: 20px;
-    cursor: pointer;
-
-} */
-
-
-
-
-
-
-
-/* .btn-whatsapp {
-    display: block !important;
-    object-fit: cover;
-    position: fixed;
-    z-index: 9999999;
-    bottom: 20px;
-    right: 20px;
-    cursor:pointer;
-    border-radius: 100px !important;
-    width: 1rem;
-} */
-
-
-
-
-
-
-/**termina forma anterior**/
-
-
-
-/**grid**/
-
-
-/**producto**/
-
-
-
-/**graficos**/
-
-
-
-
-/**Seccion nosotros**/
-
-
-/**bloques**/
