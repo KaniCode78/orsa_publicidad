@@ -122,20 +122,18 @@ h3 {
 
 .header {
     background-image: url(../img/pexels-lucas-rodrigues-vimieiro-5185577-grito.png);
-    height: 45rem;
+    height: 47rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     /**centrar horizontal centrar vertical**/
 }
 
-
 .navegacion {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
-
 
 .navegacion__enlace {
     display: block;
@@ -162,6 +160,7 @@ h3 {
     text-align: center;
     color: var(--negro);
     margin-top: 5rem;
+
 }
 
 .barra {
@@ -176,10 +175,12 @@ h3 {
     height: 10rem;
 }
 
+
+
 @media (min-width:768px) {
 
     .header {
-        height: 55rem;
+        height: 50rem;
         background-position: bottom center;
     }
 
@@ -205,7 +206,8 @@ h3 {
 /*intro*/
 
 .texto {
-
+    padding-left: 2rem;
+    padding-right: 2rem;
     color: var(--negro);
     font-family: var(--fuentePrincipal);
 }
@@ -376,11 +378,11 @@ h3 {
     padding: 2rem;
     border-radius: 1rem;
     font-family: var(--fuentePrincipal);
-
 }
 
 .formulario fieldset {
     border: none;
+
 }
 
 .formulario legend {
@@ -402,13 +404,15 @@ h3 {
     text-transform: uppercase;
     font-weight: bold;
     border-radius: .5rem;
-    width: 90%;
+    width: 100%;
     text-align: center;
     border: none;
 }
 
 
 @media (min-width: 768px) {
+
+
     .contenedor-campos {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -446,18 +450,50 @@ h3 {
 
 /**Footer**/
 
+.footer {
+    display: grid;
+    color: var(--primario);
+    background-color: var(--negro);
+    justify-content: center;
+    padding: 0;
+}
+
+.bloque__contacto {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.bloque__rs {
+    display: block;
+
+}
+
+.bloque__nav {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+
+}
+
+.bloque__nav a {
+    text-decoration: none;
+    color: var(--blanco);
+    font-family: var(--fuentePrincipal);
+}
+
+
 @media (min-width: 768px) {
 
 
     .footer {
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
         justify-content: space-between;
         padding-bottom: 5rem;
         padding-left: 10rem;
         padding-right: 10rem;
-        color: var(--primario);
-        background-color: var(--negro);
+        gap: 5rem;
     }
 
     .bloque__contacto {
@@ -473,29 +509,25 @@ h3 {
         gap: 5rem;
         display: flex;
         flex-direction: row;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
-
     }
 
-    .bloque__nav {
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-        
-        text-align: center;
-    }
-
-    .bloque__nav a{
-        text-decoration: none;
-        color: var(--blanco);
-        font-family: var(--fuentePrincipal);
 
 
-    }
 
-    .bloque__nav ul, li {
-        list-style: none;
-        
-    }
 }
 
+
+
+
+
+
+/* Seccion Quienes Somos */
+
+.contenedor__nosotros {
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: var(--fuentePrincipal);
+}
