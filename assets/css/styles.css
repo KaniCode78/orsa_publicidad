@@ -119,12 +119,13 @@ h3 {
 
 /**header**/
 
-.webp .header{
-    background-image: url(../img/imagen__hero.webp);
-}
 
 .no-webp .header{
     background-image: url(../img/imagen__hero.jpg);
+}
+
+.webp .header{
+    background-image: url(../img/imagen__hero.webp);
 }
 
 .header {
