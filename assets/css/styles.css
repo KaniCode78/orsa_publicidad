@@ -120,11 +120,11 @@ h3 {
 /**header**/
 
 .webp .header{
-    background-image: url(../img/pexels-lucas-rodrigues-vimieiro-5185577-grito.webp);
+    background-image: url(../img/imagen__hero.webp);
 }
 
 .no-webp .header{
-    background-image: url(../img/pexels-lucas-rodrigues-vimieiro-5185577-grito.jpg);
+    background-image: url(../img/imagen__hero.jpg);
 }
 
 .header {
