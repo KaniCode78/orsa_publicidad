@@ -111,10 +111,12 @@ h3 {
 }
 
 .logo__fix {
+
     bottom: 0;
     left: 0;
     right: 5px;
-    height: 5rem;
+    height: 48px;
+    width: 48xp;
     background-color: var(none);
 }
 
@@ -124,11 +126,9 @@ h3 {
 /**header**/
 
 
-
 /* .webp .header{
     background-image: url(../img/imagen__hero.webp);
 }
-
 
 .no-webp .header{
     background-image: url(../img/imagen__hero.jpg);
@@ -150,7 +150,8 @@ h3 {
 }
 
 .navegacion__enlace {
-    display: block;
+    width: 15rem;
+    /* display: block; */
     text-align: center;
     font-size: 1.8rem;
     color: var(--negro);
@@ -170,11 +171,18 @@ h3 {
     transform: translateX(-3px);
 }
 
+.header__texto {
+    display: flex;
+    justify-content: center;
+    margin-top: .50rem;
+}
+
+
 .header__texto h2 {
     text-align: center;
     color: var(--negro);
     margin-top: 5rem;
-
+    width: 40rem;
 }
 
 .barra {
@@ -187,6 +195,7 @@ h3 {
 
 .logo__barra {
     height: 10rem;
+
 }
 
 
@@ -198,9 +207,13 @@ h3 {
         background-position: bottom center;
     }
 
-
     .header__texto {
-        margin-top: 25rem;
+        margin-top: 20rem;
+    }
+
+
+    .header__texto h2 {
+        width: 55rem;
     }
 
     .navegacion {
@@ -226,13 +239,15 @@ h3 {
     font-family: var(--fuentePrincipal);
 }
 
-.logo__intro {
+/* .logo__intro {
     display: block;
     align-content: center;
 }
+*/
 
-.intro .logo__intro img {
-    width: 45%;
+.logo__intro img {
+    padding: 4rem;
+    width: 7rem;
 }
 
 @media (min-width: 768px) {
