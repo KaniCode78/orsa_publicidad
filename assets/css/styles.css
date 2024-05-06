@@ -143,6 +143,8 @@ h3 {
     /**centrar horizontal centrar vertical**/
 }
 
+
+
 .navegacion {
     display: flex;
     flex-direction: column;
@@ -194,8 +196,8 @@ h3 {
 }
 
 .logo__barra {
-    height: 10rem;
-
+    height: 8rem;
+    width: 16rem;
 }
 
 
