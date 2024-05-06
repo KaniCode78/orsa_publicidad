@@ -135,7 +135,7 @@ h3 {
 } */
 
 .header {
-    background-image: url(../img/imagen__hero.jpg);
+    background-image: url(../img/imagen__hero.webp);
     height: 47rem;
     background-size: cover;
     background-repeat: no-repeat;
