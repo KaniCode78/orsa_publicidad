@@ -79,6 +79,10 @@ h3 {
     font-size: 2.4rem;
 }
 
+p{
+    font-size: 2rem;
+}
+
 /**utilidades**/
 
 .no-margin {
@@ -139,15 +143,12 @@ h3 {
 }
 
 .header {
-    /* background-image: url(../img/imagen__hero.webp);  */
     height: 47rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     /**centrar horizontal centrar vertical**/
 }
-
-
 
 .navegacion {
     display: flex;
@@ -247,7 +248,7 @@ h3 {
     column-gap: 5rem;
 }
 
-.texto {
+.texto__intro {
     color: var(--negro);
     font-family: var(--fuentePrincipal);
 }
@@ -259,20 +260,24 @@ h3 {
 
 @media (min-width: 768px) {
     .intro {
-        padding-top: 4rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 5rem;
+        align-items: center;
     }
 
-    .texto {
-        font-size: 3rem;
-        align-content: center;
+    .texto__intro {
+        grid-column: 1 / 2;
+        grid-row: 1;
+    }
+
+    .logo__intro{
+        grid-column: 2 / 2;
+        grid-row: -1;
     }
 
     .logo__intro img {
-        height: auto;
-
+        height: 45rem;
+        height: 55rem;
     }
 
 }
