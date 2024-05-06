@@ -234,22 +234,23 @@ h3 {
 
 /*intro*/
 
-.texto {
+.intro {
+    padding-top: 4rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    display: grid;
+    grid-template-areas: repeat(2, 1fr);
+    column-gap: 5rem;
+}
+
+.texto {
     color: var(--negro);
     font-family: var(--fuentePrincipal);
 }
 
-/* .logo__intro {
-    display: block;
-    align-content: center;
-}
-*/
-
 .logo__intro img {
-    padding: 4rem;
-    width: 7rem;
+    padding: 5rem;
+    height: 35rem;
 }
 
 @media (min-width: 768px) {
@@ -266,7 +267,7 @@ h3 {
     }
 
     .logo__intro img {
-        width: 50%;
+        height:auto ;
 
     }
 
