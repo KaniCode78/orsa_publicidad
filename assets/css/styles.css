@@ -126,16 +126,20 @@ h3 {
 /**header**/
 
 
-/* .webp .header{
-    background-image: url(../img/imagen__hero.webp);
+.webp,
+.header {
+    background-image: url('../img/imagen__hero.webp');
+    background-color: #666667;
 }
 
-.no-webp .header{
-    background-image: url(../img/imagen__hero.jpg);
-} */
+.no-webp,
+.header {
+    background-image: url('../img/imagen__hero.jpg');
+
+}
 
 .header {
-    background-image: url(../img/imagen__hero.webp);
+    /* background-image: url(../img/imagen__hero.webp);  */
     height: 47rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -267,7 +271,7 @@ h3 {
     }
 
     .logo__intro img {
-        height:auto ;
+        height: auto;
 
     }
 
