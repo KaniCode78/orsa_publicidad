@@ -386,7 +386,6 @@ p{
     }
 
 
-
     .box:nth-child(1) {
         grid-column-start: span 2;
     }
@@ -546,6 +545,18 @@ p{
     font-family: var(--fuentePrincipal);
 }
 
+#dev{
+    background-color: #000;
+    color:var(--blanco);
+    font-family: var(--fuentePrincipal);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+
+}
 
 @media (min-width: 768px) {
 
