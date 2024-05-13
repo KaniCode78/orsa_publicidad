@@ -571,8 +571,45 @@ p{
 /* Seccion Quienes Somos */
 
 .contenedor__nosotros {
-    text-align: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    padding-left: 3rem;
+    padding-right: 3rem;
     font-family: var(--fuentePrincipal);
+
+}
+
+#texto__final{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: var(--secundario);
+   
+}
+
+
+
+
+@media (min-width: 768px) {
+
+
+
+.contenedor__nosotros {
+    width: 100rem;
+    text-align: justify;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+#texto__final{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: var(--secundario);
+    line-height: 1rem;
+}
 }
