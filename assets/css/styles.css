@@ -253,6 +253,10 @@ p{
     font-family: var(--fuentePrincipal);
 }
 
+.texto__intro span{
+    font-weight: bold;
+}
+
 .logo__intro img {
     padding: 5rem;
     height: 35rem;
