@@ -79,7 +79,7 @@ h3 {
     font-size: 2.4rem;
 }
 
-p{
+p {
     font-size: 2rem;
 }
 
@@ -253,7 +253,7 @@ p{
     font-family: var(--fuentePrincipal);
 }
 
-.texto__intro span{
+.texto__intro span {
     font-weight: bold;
 }
 
@@ -274,10 +274,10 @@ p{
         grid-row: 1;
     }
 
-    
-    
 
-    .logo__intro{
+
+
+    .logo__intro {
         grid-column: 2 / 2;
         grid-row: -1;
     }
@@ -308,7 +308,7 @@ p{
     object-fit: contain;
 }
 
-.centrar__texto--subtitulo{
+.centrar__texto--subtitulo {
     font-size: 2rem;
     font-weight: 700;
     padding-left: 3rem;
@@ -324,13 +324,13 @@ p{
 
 @media (min-width: 768px) {
 
-    .servicios h3{
+    .servicios h3 {
         font-size: 3rem;
         font-weight: 500;
         padding-left: 3rem;
         padding-right: 3rem;
     }
-    
+
     .contenedor__servicios {
         min-width: 768px;
         margin: 0 auto;
@@ -340,7 +340,7 @@ p{
         padding: 100px 0;
     }
 
-  
+
 
     .caja__servicios img {
         width: 20rem;
@@ -545,18 +545,22 @@ p{
     font-family: var(--fuentePrincipal);
 }
 
-#dev{
+.dev {
+
     background-color: #000;
-    color:var(--blanco);
-    font-family: var(--fuentePrincipal);
-    font-size: 1.5rem;
+    justify-content: space-around;
     display: flex;
-    justify-content: end;
-    align-items: center;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
 
 }
+
+.dev a {
+    color: var(--blanco);
+    font-family: var(--fuentePrincipal);
+    font-size: 1.5rem;
+    align-items: center;
+    align-content: center;
+}
+
 
 @media (min-width: 768px) {
 
@@ -610,13 +614,13 @@ p{
 
 }
 
-#texto__final{
+#texto__final {
     font-size: 2rem;
     font-weight: 700;
     text-align: center;
     padding-bottom: 2rem;
     color: var(--secundario);
-   
+
 }
 
 
@@ -624,19 +628,19 @@ p{
 
 
 
-.contenedor__nosotros {
-    width: 100rem;
-    text-align: justify;
-    padding-right: 2rem;
-    padding-left: 2rem;
-}
+    .contenedor__nosotros {
+        width: 100rem;
+        text-align: justify;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
 
-#texto__final{
-    font-size: 2rem;
-    font-weight: 700;
-    text-align: center;
-    padding-bottom: 2rem;
-    color: var(--secundario);
-    line-height: 1rem;
-}
+    #texto__final {
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 2rem;
+        color: var(--secundario);
+        line-height: 1rem;
+    }
 }
