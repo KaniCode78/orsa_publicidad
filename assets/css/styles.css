@@ -264,13 +264,13 @@ p {
 
 @media (min-width: 768px) {
 
-    #debito{
+    #debito {
         margin: 0%;
-        
-        color: var(--negro);
-       
 
-        
+        color: var(--negro);
+
+
+
     }
 
 
