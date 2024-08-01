@@ -263,6 +263,17 @@ p {
 }
 
 @media (min-width: 768px) {
+
+    #debito{
+        margin: 0%;
+        
+        color: var(--negro);
+       
+
+        
+    }
+
+
     .intro {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
